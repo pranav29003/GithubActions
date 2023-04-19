@@ -1,4 +1,4 @@
-name: 'Run App pranavNikam'
+name: 'Run App PranavNikam'
 
 on: [push, pull_request]
 

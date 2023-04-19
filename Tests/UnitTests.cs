@@ -107,7 +107,7 @@ namespace GithubActionsLab
         }
 
         [Test]
-        public void Add_Invalid()
+        public void Power_Invalid()
         {
             Assert.Throws<FormatException>(() => Program.Power("1", "a"));
             Assert.Throws<FormatException>(() => Program.Power("a", "1"));
@@ -115,7 +115,7 @@ namespace GithubActionsLab
         }
 
         [Test]
-        public void Add_Null()
+        public void Power_Null()
         {
             Assert.Throws<ArgumentNullException>(() => Program.Power("1", null));
             Assert.Throws<ArgumentNullException>(() => Program.Power(null, "1"));
